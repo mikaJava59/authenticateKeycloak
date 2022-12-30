@@ -11,10 +11,10 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-    @Bean
-    public ModelMapper modelMapper(){
-        return new ModelMapper();
-    }
+//    @Bean
+//    public ModelMapper modelMapper(){
+//        return new ModelMapper();
+//    }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {

@@ -17,8 +17,8 @@ public class LivreController {
     @Autowired
     private LivreService livreService;
 
-    @Autowired
-    private ModelMapper modelMapper;
+//    @Autowired
+//    private ModelMapper modelMapper;
 
     @GetMapping("/api/livre")
     public ResponseEntity<List<Livre>> getAllLivre(){
